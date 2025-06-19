@@ -37,7 +37,7 @@ public class ConsolaJuegoVersus {
         }
 
         Jugador ganador = juego.getGanador();
-        System.out.println("\n🏆 ¡Ganador: " + ganador.getNombre() + "!");
+        System.out.println("\n ¡Ganador: " + ganador.getNombre() + "!");
         preguntarReinicio();
     }
 
