@@ -1,6 +1,6 @@
 package Vista;
 
-import Modelo.JuegoDados;
+import Controlador.JuegoDados;
 
 import java.util.Scanner;
 

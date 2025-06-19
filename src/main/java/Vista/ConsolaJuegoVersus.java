@@ -1,5 +1,6 @@
 package Vista;
 
+import Controlador.JuegoVersus;
 import Modelo.*;
 
 import java.util.Scanner;
