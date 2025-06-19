@@ -8,7 +8,8 @@ public class ResultadoRonda {
     private int caraDado1J1;
     private int caraDado2J1;
     private int sumaJ1;
-    private boolean ganoJ1Ronda; // (suma 7)
+    private boolean ganoJ1Ronda;  // suma 7
+
 
     // del Jugador 2 para esta ronda
     private String nombreJugador2;

@@ -3,7 +3,7 @@ package Vista;
 import Modelo.Jugador;
 import Modelo.ResultadoRonda;
 import Modelo.TipoSet;
-import Controlador.JuegoVersusControlador;
+import Controlador.JuegoVersus;
 
 import java.util.Scanner;
 
@@ -20,7 +20,7 @@ public class ConsolaJuegoVersus {
 
         TipoSet tipoSet = seleccionarTipoSet();
 
-        JuegoVersusControlador juego = new JuegoVersusControlador(jugador1, jugador2, tipoSet);
+        JuegoVersus juego = new JuegoVersus(jugador1, jugador2, tipoSet);
 
         while (!juego.isSetTerminado()) {
             ResultadoRonda resultado = juego.jugarRonda();
@@ -61,7 +61,7 @@ public class ConsolaJuegoVersus {
                 r.isGanoJ2Ronda() ? " Punto" : " Sin punto");
     }
 
-    private void mostrarMarcador(JuegoVersusControlador juego) {
+    private void mostrarMarcador(JuegoVersus juego) {
         System.out.printf(" Marcador: %s [%d] - %s [%d]\n",
                 juego.getJugador1().getNombre(), juego.getVictoriasJugador1(),
                 juego.getJugador2().getNombre(), juego.getVictoriasJugador2());

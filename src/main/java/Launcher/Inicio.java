@@ -1,5 +1,6 @@
 package Launcher;
 
+import Vista.JuegoDadosConsola;
 import Vista.ConsolaJuegoVersus;
 
 import java.util.Scanner;
