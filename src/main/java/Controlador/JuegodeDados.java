@@ -1,4 +1,4 @@
-package Operaciones;
+package Controlador;
 
 public class JuegodeDados {
 }
